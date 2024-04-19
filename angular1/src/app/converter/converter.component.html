@@ -15,7 +15,7 @@
     <div class="app" ng-app="">
         <form class="checkBox">
             <h3 class="caption">Välj vad du vill göra:</h3><br> 
-            <input type="radio" [(ngModel)]="myVar" [ngModelOptions]="{standalone: true}" value="konvertera till Feet">konvertera till Feet
+            <input type="radio" class="inputCheck" [(ngModel)]="myVar" [ngModelOptions]="{standalone: true}" value="konvertera till Feet">konvertera till Feet<br>
             <input type="radio" [(ngModel)]="myVar" [ngModelOptions]="{standalone: true}" value="konvertera till Fahrenheit">konvertera till Fahrenheit
         </form><br>
         <label for="meterInput">Ange nummer: </label>
